@@ -1,0 +1,101 @@
+Garbage Collection
+    using
+Exception Handling
+    finally
+Lambda Expressions
+LINQ
+Asynchronous Operations
+    async, await
+    Task.Run
+Common Type System
+    Reference Types
+        Classes
+            Indexers
+            Events
+            Finalizers
+            Accessibility
+            Method Overloading
+            Operators
+            Object Initializer
+            Properties
+            Auto-Implemented Properties
+            Static Types
+            Extension Methods
+        Interface
+        Arrays
+        Delegates
+        Records
+            with
+    Value Types
+        Enum
+        Struct
+        Nullables
+        Tuples
+        ref
+        out
+        Parameter Arrays
+    Nullable Types
+    Implicit Types
+    Dynamic Types
+    Anonymous Types
+Generics
+Iterators
+    IEnumerable
+    while, do, for, foreach
+    Array Initializers
+Organization
+    Namespaces
+    Assemblies
+    Attributes
+OOP
+    Inheritance
+        sealed
+        Member-Hiding in Derived Class
+        base
+    override
+    virtual
+    abstract
+    Nested Types
+    Object Identity vs Value Equality
+String Interpolation
+Pattern Matching
+Keywords
+    readonly
+    if
+    switch
+    break, continue goto, throw, return, yield
+    lock
+Operators
+    ?? - null coalescing operator
+Top-Level Statements
+Reflection
+Threading
+Function Programming Techniques
+    Pattern Matching
+        Declaration Pattern
+        Constant Pattern
+        Logical Pattern
+        Discard Pattern
+        Relational Pattern
+        Positional Pattern
+        Null Checks
+        Type Tests
+        Comparison to Discrete Values
+    Discards
+    Deconstruction
+Coding Style
+    PascalCase namespaces, public members, type names
+    Interfaces start with I
+    Noun for Enums
+    _privateField
+    s_staticMember
+    t_threadStaticMember
+    Use string interpolation and StringBuilder.
+    Use implicit typing in for loops but not foreach loops.
+    int[] nums = {0, 1, 2}
+    Use Func<> and Action<> for delegates.
+    Use concise syntax for creation.
+    Use object initializers.
+    Always use the using statement for disposing.
+    Use lambdas for non-reusable event handlers.
+    Access static members by using ClassName.MemberName.
