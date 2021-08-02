@@ -5,19 +5,21 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWolrd\HelloWorld.csproj", "{0622BBD0-122A-491B-A200-F105A920EA74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "MyClass\Classes.csproj", "{7DB6A85B-CE9C-401A-89AE-7B3C6471F900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "MyClass\Classes.csproj", "{7DB6A85B-CE9C-401A-89AE-7B3C6471F900}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInput", "ConsoleInput\ConsoleInput.csproj", "{D294EF58-588E-4446-AED6-5815BA301077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleInput", "ConsoleInput\ConsoleInput.csproj", "{D294EF58-588E-4446-AED6-5815BA301077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintPyramid", "PrintPyramid\PrintPyramid.csproj", "{33E49F01-EA00-45CF-971B-286EBB11C8E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintPyramid", "PrintPyramid\PrintPyramid.csproj", "{33E49F01-EA00-45CF-971B-286EBB11C8E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicRecursion", "BasicRecursion\BasicRecursion.csproj", "{3D6A5FAF-DDCC-4B88-A210-502DA7442532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicRecursion", "BasicRecursion\BasicRecursion.csproj", "{3D6A5FAF-DDCC-4B88-A210-502DA7442532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{8FAF0959-0412-4884-9907-EFF9FC9AC314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{8FAF0959-0412-4884-9907-EFF9FC9AC314}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{2B37DE83-1533-4D4A-9948-7E437F321FF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibraryClient", "TestLibraryClient\TestLibraryClient.csproj", "{912FF2D9-E9A6-4631-B957-F01907758384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLibraryClient", "TestLibraryClient\TestLibraryClient.csproj", "{912FF2D9-E9A6-4631-B957-F01907758384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLoggingClient", "SampleLoggingClient\SampleLoggingClient.csproj", "{2AE333B2-48A1-4EA5-BEB8-5713331E1D59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{912FF2D9-E9A6-4631-B957-F01907758384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{912FF2D9-E9A6-4631-B957-F01907758384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{912FF2D9-E9A6-4631-B957-F01907758384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE333B2-48A1-4EA5-BEB8-5713331E1D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE333B2-48A1-4EA5-BEB8-5713331E1D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE333B2-48A1-4EA5-BEB8-5713331E1D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE333B2-48A1-4EA5-BEB8-5713331E1D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,23 +18,25 @@ Common Type System
             Operators
             Object Initializer
             Properties
-            Auto-Implemented Properties
+                Auto-Implemented Properties
+                Specific Initialization
             Static Types
             Extension Methods
         Interface
         Arrays
+            Array Initializers
         Delegates
         Records
             with
     Value Types
         Enum
         Struct
-        Nullables
+        Nullable Value Types
         Tuples
         ref
         out
         Parameter Arrays
-    Nullable Types
+    Nullable Reference Types
     Implicit Types
     Dynamic Types
     Anonymous Types
@@ -42,7 +44,7 @@ Generics
 Iterators
     IEnumerable
     while, do, for, foreach
-    Array Initializers
+    yield return
 Organization
     Namespaces
     Assemblies
@@ -65,8 +67,10 @@ Keywords
     switch
     break, continue goto, throw, return, yield
     lock
+    default
 Operators
     ?? - null coalescing operator
+    ?. - null conditional operator
 Top-Level Statements
 Reflection
 Threading
@@ -99,3 +103,4 @@ Coding Style
     Always use the using statement for disposing.
     Use lambdas for non-reusable event handlers.
     Access static members by using ClassName.MemberName.
+Anonymous Functions
