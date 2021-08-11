@@ -13,6 +13,7 @@ namespace SampleLoggingClient
             int prev = -1;
             while(true)
             {
+                logger.Info($"----------------------------------------------------------------------");
                 logger.Info($"Previous random number was {prev}");
                 int num = random.Next(1, 10);
                 logger.Info($"Random number is {num}");
