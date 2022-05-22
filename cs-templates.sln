@@ -23,8 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleLoggingClient", "Samp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncTest", "AsyncTest\AsyncTest.csproj", "{ABBC1904-A5E1-4A41-A385-B962440F7003}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncBreakfast", "AsyncBreakfast\AsyncBreakfast.csproj", "{CDB57009-2EEA-4A67-BF89-29422BC3A235}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,10 +69,6 @@ Global
 		{ABBC1904-A5E1-4A41-A385-B962440F7003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABBC1904-A5E1-4A41-A385-B962440F7003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABBC1904-A5E1-4A41-A385-B962440F7003}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDB57009-2EEA-4A67-BF89-29422BC3A235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDB57009-2EEA-4A67-BF89-29422BC3A235}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDB57009-2EEA-4A67-BF89-29422BC3A235}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDB57009-2EEA-4A67-BF89-29422BC3A235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
